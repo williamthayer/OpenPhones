@@ -427,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "CutomParts"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -578,6 +580,10 @@
     [
       "7b9c80d0-1bd4-42a6-b78c-a7308fa454e7",
       "Root"
+    ],
+    [
+      "f498f388-7f6e-4d36-81ce-25caa49a52f0",
+      "Bat Charger"
     ]
   ],
   "text_variables": {}
