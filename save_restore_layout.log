@@ -1,0 +1,26 @@
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'win32'
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.4
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x000001F8774EBD90>
+12-04 22:26:10 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'C14'
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on C:\Users\Will Desktop\OneDrive\KiCad\Headphones\OpenPhones\Headphones.kicad_pcb
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: C:\Users\WILLDE~1\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: C:\Users\WILLDE~1\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with []
+12-04 22:26:11 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with []
+12-04 22:26:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+12-04 22:26:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+12-04 22:26:16 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available []
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available []
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+12-04 22:26:17 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available []
+12-04 22:26:20 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 230:User failed to select hierarchy level to save

@@ -5,6 +5,108 @@
 	(uuid "14f8acd1-7086-4afa-ac64-0cf0e17743c0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1906,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588d941d-95e9-4bdb-b357-37bd70c5b39b")
+	)
+	(wire
+		(pts
 			(xy 69.85 87.63) (xy 69.85 85.09)
 		)
 		(stroke
@@ -1933,6 +2045,16 @@
 			(type default)
 		)
 		(uuid "68fc1903-3b03-42cd-8d66-e66b5163b9ab")
+	)
+	(wire
+		(pts
+			(xy 195.58 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1699db-9af1-4b44-9ce6-8cc27ac41769")
 	)
 	(wire
 		(pts
@@ -2234,7 +2356,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "VBUS"
 		(shape input)
 		(at 158.75 102.87 0)
 		(effects
@@ -2254,7 +2376,27 @@
 			)
 		)
 	)
-	(global_label "VBATM"
+	(global_label "VBATP"
+		(shape input)
+		(at 195.58 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "788ab847-1782-4b16-8621-81208e679255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATP"
 		(shape input)
 		(at 158.75 107.95 0)
 		(effects
@@ -2296,6 +2438,26 @@
 	)
 	(global_label "VBATGND"
 		(shape input)
+		(at 195.58 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0b0bf20-31e5-453a-92b2-76ceab13546f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATGND"
+		(shape input)
 		(at 158.75 110.49 0)
 		(effects
 			(font
@@ -2314,7 +2476,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "VBUS"
 		(shape input)
 		(at 158.75 105.41 0)
 		(effects
@@ -2323,7 +2485,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f2a3fb6b-d247-4513-9372-5e550cb57f7a")
+		(uuid "fdde397c-81ef-4742-ab7e-7baba984c347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 105.41 0)
 			(effects
@@ -2939,6 +3101,71 @@
 			(project "Headphones"
 				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7/f498f388-7f6e-4d36-81ce-25caa49a52f0"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a3620a7-3281-4db9-a218-740a93b94cbe")
+		(property "Reference" "Bat-1"
+			(at 187.198 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 187.198 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3a41b60-3b19-478a-883c-36d0bed4d734")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7/f498f388-7f6e-4d36-81ce-25caa49a52f0"
+					(reference "Bat-1")
 					(unit 1)
 				)
 			)
@@ -3667,6 +3894,71 @@
 			(project "Headphones"
 				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7/f498f388-7f6e-4d36-81ce-25caa49a52f0"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3a6ae8-c7a6-4ce0-9d13-2564608b7182")
+		(property "Reference" "Bat+1"
+			(at 187.198 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 187.198 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "260d1d8a-b3fa-43d4-87aa-9e62aa12664d")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7/f498f388-7f6e-4d36-81ce-25caa49a52f0"
+					(reference "Bat+1")
 					(unit 1)
 				)
 			)

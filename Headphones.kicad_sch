@@ -5,6 +5,108 @@
 	(uuid "7b9c80d0-1bd4-42a6-b78c-a7308fa454e7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3249,6 +3351,12 @@
 		(uuid "72c62d0f-da50-4aa6-8522-2eaad9f3e87a")
 	)
 	(junction
+		(at 172.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760e6882-3fd6-4f35-bc00-2617ce4e5c71")
+	)
+	(junction
 		(at 181.61 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3357,6 +3465,18 @@
 		(uuid "cd21da41-fe89-46e3-af1b-04ff61ffee52")
 	)
 	(junction
+		(at 139.7 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c738fe-7969-46ab-83a6-1faa5f6267bc")
+	)
+	(junction
+		(at 142.24 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d52eb2be-5e12-43a5-8ade-b9c3f2f2046f")
+	)
+	(junction
 		(at 81.28 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3367,6 +3487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2a74b7-f3a7-4570-ab73-43dd9664a6ef")
+	)
+	(junction
+		(at 172.72 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f168a540-a8b3-4d4f-bf0d-317b2022429b")
 	)
 	(junction
 		(at 113.03 67.31)
@@ -4238,6 +4364,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 152.4) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e851136-280f-48f4-a73d-4e70f3762fd4")
+	)
+	(wire
+		(pts
 			(xy 160.02 67.31) (xy 166.37 67.31)
 		)
 		(stroke
@@ -4935,6 +5071,16 @@
 			(type default)
 		)
 		(uuid "fe212455-c1e6-4b58-bf41-c814a9438a96")
+	)
+	(wire
+		(pts
+			(xy 181.61 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe253242-4a4d-418d-9223-589f806325d0")
 	)
 	(wire
 		(pts
@@ -5766,7 +5912,7 @@
 		(dnp no)
 		(uuid "20554bea-0d29-4260-87da-03b6cb4056fe")
 		(property "Reference" "C23"
-			(at 174.498 149.86 90)
+			(at 175.006 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5920,7 @@
 			)
 		)
 		(property "Value" ".1uf"
-			(at 174.498 152.146 90)
+			(at 175.006 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,6 +6036,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23c0a599-e64d-44e9-925f-dbe1f110c0d2")
+		(property "Reference" "+SpeakerL1"
+			(at 140.97 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4448db65-5128-4605-a1c6-f1955d0a27de")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7"
+					(reference "+SpeakerL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 153.67 78.74 90)
 		(unit 1)
@@ -5951,6 +6163,72 @@
 			(project "Headphones"
 				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cadb2b5-65b0-481f-b1df-1cdd138477c9")
+		(property "Reference" "+SpeakerR1"
+			(at 131.572 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 131.572 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40199b29-e222-4886-b292-d912c89d825b")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7"
+					(reference "+SpeakerR1")
 					(unit 1)
 				)
 			)
@@ -7382,6 +7660,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786ca828-1071-42e4-b6fc-2ef12ff24993")
+		(property "Reference" "-SpeakerL1"
+			(at 186.69 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.69 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "200594ec-c916-4eba-8d16-5168119c1388")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7"
+					(reference "-SpeakerL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 49.53 90)
 		(unit 1)
@@ -7873,7 +8218,7 @@
 		(dnp no)
 		(uuid "9660c692-59bd-4734-8543-62ce3be82720")
 		(property "Reference" "C24"
-			(at 174.752 142.24 90)
+			(at 175.26 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8226,7 @@
 			)
 		)
 		(property "Value" ".1uf"
-			(at 174.752 144.526 90)
+			(at 175.26 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,6 +9184,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76e5b80-8469-419c-9a1c-94d692b3af80")
+		(property "Reference" "-SpeakerR1"
+			(at 189.23 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 189.23 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2901fc2-c772-4ec9-91e4-511c72204122")
+		)
+		(instances
+			(project "Headphones"
+				(path "/7b9c80d0-1bd4-42a6-b78c-a7308fa454e7"
+					(reference "-SpeakerR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 260.35 101.6 270)
 		(unit 1)
@@ -9139,7 +9551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 98.552 104.14 90)
 			(effects
 				(font
@@ -10568,7 +10980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 167.132 29.21 90)
 			(effects
 				(font
